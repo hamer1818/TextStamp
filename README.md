@@ -1,3 +1,83 @@
+# TextStamp
+
+TextStamp, resimleriniz üzerine özelleştirilmiş metin damgaları eklemenizi sağlayan kullanıcı dostu bir masaüstü uygulamasıdır.
+
+## Özellikler
+
+- Sürükle-bırak ile kolay alan seçimi
+- Otomatik font boyutlandırma
+- Birden fazla metin desteği
+- Özelleştirilebilir font desteği
+- Çoklu çıktı oluşturma
+- Kullanıcı dostu arayüz
+- Dahili öğretici sistem
+- Scroll desteği ile büyük resimler için uygun görüntüleme
+
+## Kurulum
+
+1. Python 3.x'in kurulu olduğundan emin olun
+
+```bash
+python --version
+```
+
+2. Bu depoyu klonlayın:
+
+```bash
+git clone https://github.com/hamer1818/TextStamp.git
+```
+3. virtual environment oluşturun:
+
+```bash
+python -m venv venv
+```
+
+4. Gerekli kütüphaneleri yükleyin:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Kullanım
+
+1. Uygulamayı çalıştırın:
+
+```bash
+python main.py
+```
+
+
+## Kullanım
+
+1. "Resim Yükle" butonu ile bir resim seçin
+2. Fare ile sürükleyerek metin eklemek istediğiniz alanı belirleyin
+3. "Bölgeyi Onayla" butonuna tıklayın
+4. Metin kutusuna eklemek istediğiniz metni yazın
+5. "Metin Ekle" butonuna tıklayın
+6. İsterseniz birden fazla metin ekleyebilirsiniz
+7. "Metinleri Uygula ve Çıktı Al" butonu ile sonuçları kaydedin
+
+## Özelleştirme
+
+### Font Değiştirme
+- `fonts` klasörü içine `main.ttf` adında bir TrueType font dosyası ekleyerek varsayılan fontu değiştirebilirsiniz
+- Font bulunamazsa sistem varsayılan fontu kullanılacaktır
+
+## Gereksinimler
+
+- Python 3.x
+- Pillow (PIL)
+- tkinter (Python ile birlikte gelir)
+
+## Klasör Yapısı
+```plaintext
+textStamp/
+├── main.py
+├── README.md
+├── requirements.txt
+└── fonts/
+└── main.ttf (isteğe bağlı)
+```
 
 ## Özellikler ve Sınırlamalar
 
